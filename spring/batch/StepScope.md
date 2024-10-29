@@ -1,8 +1,7 @@
 https://docs.spring.io/spring-batch/reference/step/late-binding.html
 
 1. 동적 파라미터 지원
-2. 스레드 격리
-3. 지연 초기화
+2. 지연 초기화
 
 보통은 컴파일 단계에서 해결할 수 있음.
 ```java
@@ -35,6 +34,16 @@ public FlatFileItemReader flatFileItemReader(@Value("${input.file.name}") String
 @StepScope
 @Bean
 public FlatFileItemReader flatFileItemReader(@Value("#{jobParameters['input.file.name']}") String name) {
+	return new FlatFileItemReaderBuilder<Foo>()
+			.name("flatFileItemReader")
+			.resource(new FileSystemResource(name))
+			...
+}
+```
+```java
+@StepScope
+@Bean
+public FlatFileItemReader flatFileItemReader(@Value("#{jobExecutionContext['input.file.name']}") String name) {
 	return new FlatFileItemReaderBuilder<Foo>()
 			.name("flatFileItemReader")
 			.resource(new FileSystemResource(name))
