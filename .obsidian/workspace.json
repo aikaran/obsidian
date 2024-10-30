@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@Retryable.md",
+                "file": "spring/retry/@Retryable.md",
                 "mode": "source",
                 "source": false
               },
@@ -181,7 +181,8 @@
   "active": "9eca9e3c076c8242",
   "lastOpenFiles": [
     "spring/batch/@StepScope.md",
-    "@Retryable.md",
+    "spring/retry/@Retryable.md",
+    "spring/retry",
     "ReadMe.md",
     "spring/batch",
     "spring",
