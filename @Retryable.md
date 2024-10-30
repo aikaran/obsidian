@@ -23,7 +23,6 @@ class Service {
 ```
 
 1.3 버전부터는 명령형 스타일로 가능
-이전 버전은 https://github.com/spring-projects/spring-retry?tab=readme-ov-file#using-retrytemplate
 ```java
 RetryTemplate template = RetryTemplate.builder()
 				.maxAttempts(3)
