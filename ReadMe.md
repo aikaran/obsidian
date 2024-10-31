@@ -9,11 +9,12 @@
 |             | spring-data-redis           | -     | 중급  |
 |             | spring-data-jpa             | -     | 초급  |
 | sql         |                             |       |     |
-|             | mysql                       | -     | 중급  |
+|             | mysql                       | 8.x   | 중급  |
 | javascript  |                             | -     | 중급  |
-|             | vue.js                      | 2.7.x | 중급  |
-|             | vue-router                  | 3.4.x | 중급  |
-|             | vuex                        | 3.6.x | 중급  |
+|             | vue.js                      | 2.x   | 중급  |
+|             | vue-router                  | -     | 중급  |
+|             | vuex                        | -     | 중급  |
 | 기타          |                             |       |     |
 |             | jenkins                     |       | 초급  |
 |             | github actions              |       | 초급  |
+|             | nginx                       |       | 중급  |
