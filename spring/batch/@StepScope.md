@@ -25,6 +25,7 @@ public FlatFileItemReader flatFileItemReader(@Value("${input.file.name}") String
 			...
 }
 ```
+
 ```bash
 -Dinput.file.name="file://outputs/file.txt"
 ```
@@ -40,6 +41,7 @@ public FlatFileItemReader flatFileItemReader(@Value("#{jobParameters['input.file
 			...
 }
 ```
+
 ```java
 @StepScope
 @Bean
@@ -50,6 +52,7 @@ public FlatFileItemReader flatFileItemReader(@Value("#{jobExecutionContext['inpu
 			...
 }
 ```
+
 ```java
 @StepScope
 @Bean
