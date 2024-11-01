@@ -42,3 +42,14 @@ BigDecimal value = new BigDecimal("10.456");
 BigDecimal scaledValue = value.setScale(2, RoundingMode.HALF_UP); // 소수점 이하 2자리에서 반올림
 System.out.println(scaledValue); // 출력: 10.46
 ```
+
+불필요한 0 제거
+```java
+BigDecimal decimalWithZeros = new BigDecimal("123.45000");
+
+// 소수점 이하 0 제거
+BigDecimal strippedDecimal = decimalWithZeros.stripTrailingZeros();
+
+System.out.println("원래 값: " + decimalWithZeros);          // 출력: 123.45000
+System.out.println("0 제거된 값: " + strippedDecimal);       // 출력: 123.45
+```
