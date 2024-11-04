@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/lombok/@Builder.md",
+                "file": "java/math/BigDecimal.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@Builder"
+              "title": "BigDecimal"
             }
           }
         ],
@@ -208,10 +208,10 @@
   },
   "active": "f3f30e879b6f2001",
   "lastOpenFiles": [
+    "java/lombok/@Builder.md",
     "spring/batch/@StepScope.md",
     "ReadMe.md",
     "java/math/BigDecimal.md",
-    "java/lombok/@Builder.md",
     "intellij/코드 스타일/줄 바꿈.md",
     "attachment/Pasted image 20241101173302.png",
     "attachment/Pasted image 20241101173153.png",
