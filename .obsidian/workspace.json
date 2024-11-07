@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/jackson/JsonSubTypes.md",
+                "file": "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JsonSubTypes"
+              "title": "@JsonTypeInfo, @JsonSubTypes"
             }
           }
         ],
@@ -222,12 +222,12 @@
   },
   "active": "2cfd6ffd4ea899de",
   "lastOpenFiles": [
-    "java/lombok/@Builder.md",
-    "java/jackson/JsonSubTypes.md",
-    "java/jackson",
-    "ReadMe.md",
-    "java/math/BigDecimal.md",
     "intellij/다이어그램/다이어그램.md",
+    "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
+    "ReadMe.md",
+    "java/lombok/@Builder.md",
+    "java/jackson",
+    "java/math/BigDecimal.md",
     "intellij/코드 스타일/줄 바꿈.md",
     "intellij/다이어그램",
     "spring/batch/@StepScope.md",
