@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/Bulk Upsert.md",
+                "file": "spring/jpa/IdentifierGenerator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bulk Upsert"
+              "title": "IdentifierGenerator"
             }
           }
         ],
@@ -222,12 +222,14 @@
   },
   "active": "2cfd6ffd4ea899de",
   "lastOpenFiles": [
+    "mysql/Bulk Upsert.md",
+    "spring/jpa/IdentifierGenerator.md",
+    "spring/jpa",
     "java/math/BigDecimal.md",
     "intellij/코드 스타일/줄 바꿈.md",
     "intellij/다이어그램/다이어그램.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
     "ReadMe.md",
-    "mysql/Bulk Upsert.md",
     "java/lombok/@Builder.md",
     "mysql",
     "java/jackson",
@@ -243,7 +245,6 @@
     "spring/retry/@Retryable.md",
     "java",
     "spring/retry",
-    "spring/batch",
     "attachment/Pasted image 20241029181329.png"
   ]
 }
