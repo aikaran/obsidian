@@ -76,21 +76,9 @@
               "icon": "lucide-file",
               "title": "spring.data.web.pageable.max-page-size"
             }
-          },
-          {
-            "id": "9af729559ab213dc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,7 +220,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9af729559ab213dc",
+  "active": "2cfd6ffd4ea899de",
   "lastOpenFiles": [
     "vue/Slots.md",
     "spring/jpa/spring.data.web.pageable.max-page-size.md",
