@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue/Slots.md",
+                "file": "spring/jpa/spring.data.web.pageable.max-page-size.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Slots"
+              "title": "spring.data.web.pageable.max-page-size"
             }
           }
         ],
@@ -222,8 +222,9 @@
   },
   "active": "2cfd6ffd4ea899de",
   "lastOpenFiles": [
-    "java/math/BigDecimal.md",
     "vue/Slots.md",
+    "spring/jpa/spring.data.web.pageable.max-page-size.md",
+    "java/math/BigDecimal.md",
     "vue",
     "ReadMe.md",
     "spring/jpa/IdentifierGenerator.md",
