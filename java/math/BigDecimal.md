@@ -55,6 +55,7 @@ System.out.println("0 제거된 값: " + strippedDecimal);       // 출력: 123.
 ```
 
 toPlainString()
+지수 표현 대신 사람에게 편하게 표현
 ```java
 import java.math.BigDecimal;
 
