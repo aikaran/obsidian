@@ -53,3 +53,25 @@ BigDecimal strippedDecimal = decimalWithZeros.stripTrailingZeros();
 System.out.println("원래 값: " + decimalWithZeros);          // 출력: 123.45000
 System.out.println("0 제거된 값: " + strippedDecimal);       // 출력: 123.45
 ```
+
+toPlainString()
+```java
+import java.math.BigDecimal;
+
+public class Main {
+    public static void main(String[] args) {
+        BigDecimal value1 = new BigDecimal("1.23E+3");
+        BigDecimal value2 = new BigDecimal("0.00000123");
+
+        // toPlainString()
+        System.out.println("toPlainString:");
+        System.out.println(value1.toPlainString()); // 1230
+        System.out.println(value2.toPlainString()); // 0.00000123
+
+        // toString()
+        System.out.println("\ntoString:");
+        System.out.println(value1.toString()); // 1.23E+3
+        System.out.println(value2.toString()); // 1.23E-6
+    }
+}
+```
