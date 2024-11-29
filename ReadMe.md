@@ -159,25 +159,55 @@
 ### 2022
 - 쇼핑적립 시스템 인수인계 (08 ~ 12월)
 	- 쿠폰탭 쇼핑적립 노출 개발 (09 ~ 12월)
-	- 
+	- 프론트 + 백엔드
+		- 쇼핑적립 컬렉션 개발
+		- 미사용 코드 제거
 	- MySQL 5.7 -> 8 버전업 (09 ~ 10월)
+	- Spring Boot 2.0 -> 2.7 버전업 (08 ~ 11월)
+	- 기술스택
+		- spring boot 2.0, 2.7 (mvc, mybatis, jsp, java, mysql 5/8)
 - Spring Boot 2.0 -> 2.7 버전업 (08 ~ 11월)
-	- @Deprecated 코드 변경
-	- 삭제된 의존성 추가
-	- junit 4 -> 5 마이그레이션
-	- tomcat 버전업, 배포 스크립트 변경
-- CLO 센터 구축
-	- 프로모션 예산 배치
-	- 캠페인 상태 변경 배치
-	- 연계 매출 동기화 배치
-	- 보안 취약점 대응 - CSV Injection
-- 결제사 연계 시스템 구축
-	- Rest API 설계
-	- 캠페인 조회 API 개발
-	- 프로젝트 설정 (모니터링, WebClient 등)
+	- 백엔드
+		- @Deprecated 코드 변경
+		- 삭제된 의존성 추가
+		- junit 4 -> 5 마이그레이션
+	- 서버
+		- tomcat 버전업, 배포 스크립트 변경
+	- 기술스택
+		- spring boot 2.0, 2.7 (mvc, jsp, mybatis, java, mysql 5/8, test)
+		- tomcat 8.5
+- CLO 센터 구축 (03 ~ 08)
+	- 프론트 + 백엔드
+		- CLO 센터 프로모션 예산 관리 페이지 개발
+	- 백엔드
+		- CLO 프로모션 예산 배치 개발
+		- CLO 캠페인 상태 변경 배치 개발
+		- CLO 연계 매출 동기화 배치/API 개발
+		- 보안 취약점 대응 - CSV Injection
+		- CLO 캠페인 정보 조회 API 개발 및 webClient 설정
+		- 프로모션 예산 DB 스키마 설계
+	- 서버
+		- 배포 스크립트, 모니터링, 로그 설정
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, kotlin, java, mysql 8)
+		- spring boot 2.7 (mvc, java)
+		- vue js 2 (javascript)
+- 광고주센터 가맹점 키워드 기능 개선 & 개발 (2023년 12월 ~ 02월)
+	- 프론트 + 백엔드
+		- 가맹점 동의어/키워드 분리
+		- 가맹점 어뷰징 키워드 신규 개발
+		- 가맹점 단어 관련 DB 스키마 설계
+	- 백엔드
+		- 모델링 서버에 가맹점 데이터 피드 전달 배치 개발
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, kotlin, java, mysql 8)
+		- vue js 2 (javascript)
+		- uwsgi (python 3)
+
 ### 2021
-- DisplayAd 리타게팅 시스템 개발
-	- 레디스, API 서버 장비 세팅
+- DisplayAd 리타게팅 시스템 개발 (06 ~ 08월)
+	- 서버
+		- 레디스, API 서버 장비 스펙 산정 및 세팅, wiki 정리
 	- 노출/클릭 API 개발
 	- 집계 배치 개발
 	- 리포트 속도 개선
