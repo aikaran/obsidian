@@ -59,7 +59,7 @@
 		- 댓글 관련 DB 스키마 설계
 	- 기술스택
 		- spring boot 2.7 (mvc, jpa, redis, java, mysql 8)
-		- uwsgi (python 3, mysql 8)
+		- uwsgi (python 3, redis, mysql 8)
 - 혜택 홈 개편 (04 ~ 06월)
 	- 프론트 + 백엔드
 		- 가맹점 혜택 설정 기능 개발
@@ -69,7 +69,7 @@
 		- 이벤트 페이지 HTML 파싱 & 쿠폰 다운로드 페이지 HTML 생성 역할과 쿠폰 정보(DB) 불러오기 역할이 섞인 부분을 각각의 영역으로 분리 리팩토링 작업
 	- 기술스택
 		- spring boot 2.7 (mvc, jsp, mybatis, jpa, kotlin, java, mysql 8)
-		- uwsgi (python 3, mysql 8)
+		- uwsgi (python 2, mysql 8)
 		- vue js 2 (javascript)
 - 쇼핑적립 타부서로 이관 (03 ~ 07월)
 - 모여서 쿠폰 쓰기 달성 독려 푸시 배치 개발 (01 ~ 02월)
@@ -146,7 +146,7 @@
 		- 검색 컬렉션 DB 스키마 설계
 	- 기술스택
 		- spring boot 2.7 (mvc, redis, mybatis, jsp, java, kotlin, mysql 8)
-		- uwsgi (python 3, redis, mysql 8)
+		- uwsgi (python 2, redis, mysql 8)
 		- spring boot 2 (es, spark), kibana
 - 쿠폰별 과금 설정 기능 (01월)
 	- 프론트 + 백엔드
@@ -202,7 +202,7 @@
 	- 기술스택
 		- spring boot 2.0 (mvc, mybatis, kotlin, java, mysql 8)
 		- vue js 2 (javascript)
-		- uwsgi (python 3)
+		- uwsgi (python 2, mysql 8)
 
 ### 2021
 - 검색 맞춤쿠폰-상품 모듈 추가 개발 (10 ~ 12월)
@@ -220,11 +220,32 @@
 		- 메타 데이터 추가 개발
 		- 전환 집계 리포트 배치 개발 (11 ~ 12월)
 	- 기술스택
-		- spring boot 2.0 (mvc, mybatis, java, mysql 8)
-- 광고주센터 2차 인증 기능 개발
-- 쿠폰홈 개편
-- 배너 디자인 변경 개발
-- 광고주센터 캠페인 복사 기능 개발
+		- spring boot 2.0 (mvc, mybatis, redis, java, mysql 8)
+		- uwsgi (python 2, redis, mysql 8)
+- 광고주센터 캠페인 복사 기능 개발 (05 ~ 07월)
+	- 프론트 + 백엔드
+		- 캠페인 삭제 기능 개발
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, kotlin, mysql 8)
+		- vue js 2 (javascript)
+- 쿠폰홈 개편 (03 ~ 05월)
+	- 프론트 + 백엔드
+		- 배너 생성/수정 기능 개발
+		- 컬렉션 리포트 페이지 개발
+		- 랭킹형 리포트 페이지 개발
+	- 기술스택
+		- spring boot 2.0 (mvc, jsp, mybatis, java, mysql 8)
+- 배너 디자인 변경 개발 (01 ~ 02월)
+	- 프론트 + 백엔드
+		- 광고주센터 신규 배너 설정 개발
+	- 백엔드
+		- 앱과 신규 디자인 API 응답 스펙 협의
+		- API 버전에 맞춰 신규 배너 응답 개발
+		- 신규 배너 데이터 메타 데이터 추가
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, java, kotlin, mysql 8)
+		- vue js 2 (javascript)
+		- uwsgi (python 2, redis, mysql 8)
 ### 2020
 - 광고주센터
 	- 검색 가맹점 키워드 관리 기능 개발
@@ -240,4 +261,3 @@
 	- 캠페인 생성/수정 (이벤트 페이지)
 - 페이코 홈 개편 대응 개발
 - 신입사원 기술 교육
-
