@@ -56,6 +56,7 @@
 	- 백엔드
 		- 배너 API에 댓글 추가
 		- 댓글 관련 entity를 공통 모듈로 작업해서 재사용
+		- 댓글 관련 DB 스키마 설계
 	- 기술스택
 		- spring boot 2.7 (mvc, jpa, redis, java, mysql 8)
 		- uwsgi (python 3, mysql 8)
@@ -69,7 +70,16 @@
 	- 기술스택
 		- spring boot 2.7 (mvc, jsp, mybatis, jpa, kotlin, java, mysql 8)
 		- uwsgi (python 3, mysql 8)
-		- vue js (javascript)
+		- vue js 2 (javascript)
+- 모여서 쿠폰 쓰기 달성 독려 푸시 배치 개발 (01 ~ 02월)
+	- 프론트 + 백엔드
+		- 푸시 알림/소재 관리 페이지 개발
+	- 백엔드
+		- 미달성 모임 대상자에게 푸시 발송 배치 개발
+		- 푸시 API 클라이언트 모듈 리팩토링 및 공통 모듈로 변경해 코드 중복 제거
+		- 푸시 알림/소재 DB 스키마 설계
+	- 기술스택
+		- spring boot 2.7 (mvc, batch, jsp, mybatis, java, mysql 8)
 ### 2023
 - 웹서비스 전환 (11월 ~ 2024년 02월)
 	- 프론트
@@ -81,11 +91,22 @@
 		- HTML 프로세서 인터페이스를 만들어 기능 별로 분리하여 이벤트 페이지/쿠폰 다운로드 페이지에서 필요한 기능만 재사용하도록 리팩토링하여 코드 중복 제거
 		- 앱 UA 파싱 기능 공통 모듈로 이동하여 코드 중복 제거 및 RequestContextHolder(ThreadLocal) 의존성 제거하도록 리팩토링
 	- 기술스택
-		- spring boot 2.7 (mvc, jsp, mybatis, java, mysql 8)
+		- spring boot 2.7 (mvc, jsp, java)
 - 상계 시스템 개발 (10 ~ 11월)
 	- 광고비를 정산 시스템에 상계 요청하는 시스템
-	- 결제 내역 저장 배치 및 상계 결과 리포트 페이지 개발
-- 모여서 쿠폰 쓰기 서비스 개발
+	- 프론트 + 백엔드
+		- CLO센터 상계 내역 페이지 개발
+	- 백엔드
+		- 결제 내역 저장 배치에서 상계를 위한 데이터도 저장하도록 수정
+		- 상계 관련 DB 스키마 설계
+	- 기술스택
+		- spring boot 2.7 (mvc, mybatis, kotlin, java, mysql 8)
+		- vue js 2 (javascript)
+- 모여서 쿠폰 쓰기 서비스 개발 (08 ~ 09월)
+	- 모임을 만들어 결제한 유저에게 추가 헤택을 주는 기능
+	- 프론트 + 백엔드
+		- 모쿠쓰 리포트 개발
+		- 기존 리포트 페이지와 분리 제안
 	- 리포트 배치, 페이지 개발
 	- 달성 독려 푸시 배치
 	- DB 설계
