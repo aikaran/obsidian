@@ -63,6 +63,10 @@
 		- 쿠폰 다운로드 페이지 개편 작업
 	- 백엔드
 		- 이벤트 페이지 HTML 파싱 & 쿠폰 다운로드 페이지 HTML 생성 역할과 쿠폰 정보(DB) 불러오기 역할이 섞인 부분을 각각의 영역으로 분리 리팩토링 작업
+	- 기술스택
+		- spring boot 2.7 (mvc, mybatis, jpa, kotlin, java, mysql 8)
+		- uwsgi (python 3, mysql 8)
+		- vue js (javascript)
 ### 2023
 - 웹서비스 전환
 	- 기존 모바일 웹뷰로만 제공되는 페이지를 PC사용자에게도 제공하도록 개편
