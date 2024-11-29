@@ -140,10 +140,16 @@
 		- spring boot 2.7 (mvc, redis, mybatis, jsp, java, kotlin, mysql 8)
 		- uwsgi (python 3, redis, mysql 8)
 		- spring boot 2 (es, spark), kibana
-- 과금 시스템 개선
-	- 광고별 과금을 쿠폰별 과금 설정할 수 있도록 개선
-- 쇼핑적립 시스템 유지보수
-	- 수기 처리되던 데이터 검수 자동화
+- 쿠폰별 과금 설정 기능 (01월)
+	- 프론트 + 백엔드
+		- CLO센터 쿠폰별 과금 설정 기능 추가
+	- 백엔드
+		- 쿠폰 저장 기능 리팩토링해 코드 중복 제거
+	- 기술스택
+		- spring boot 2.7 (mvc, mybatis, kotlin, mysql 8)
+		- vue js 2 (javascript)
+- 쇼핑적립 이관 (2022년 08 ~ 02월)
+	- 쿠폰탭 쇼핑적립 노출 개발 (2022년 09 ~ 12월)
 	- MySQL 버전업
 - 배치 기능 개선
 	- 로깅 시스템 개선
