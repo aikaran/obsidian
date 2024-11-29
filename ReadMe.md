@@ -205,12 +205,22 @@
 		- uwsgi (python 3)
 
 ### 2021
-- DisplayAd 리타게팅 시스템 개발 (06 ~ 08월)
+- 검색 맞춤쿠폰-상품 모듈 추가 개발 (10 ~ 12월)
 	- 서버
-		- 레디스, API 서버 장비 스펙 산정 및 세팅, wiki 정리
-	- 노출/클릭 API 개발
-	- 집계 배치 개발
-	- 리포트 속도 개선
+		- nginx-openresty 이미지 캐시 모듈 추가
+		- spring boot actuator 모니터링 추가
+	- 기술스택
+		- nginx-openresty
+		- spring boot 2.0 (actuator)
+- DisplayAd 리타게팅 시스템 개발 (06 ~ 12월)
+	- 서버
+		- 레디스 클러스터, DisplayAd API 서버 장비 스펙 산정 및 세팅, wiki 정리
+	- 백엔드
+		- DisplayAd 노출/클릭 API 개발
+		- 메타 데이터 추가 개발
+		- 전환 집계 리포트 배치 개발 (11 ~ 12월)
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, java, mysql 8)
 - 광고주센터 2차 인증 기능 개발
 - 쿠폰홈 개편
 - 배너 디자인 변경 개발
