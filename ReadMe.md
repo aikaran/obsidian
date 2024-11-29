@@ -71,6 +71,7 @@
 		- spring boot 2.7 (mvc, jsp, mybatis, jpa, kotlin, java, mysql 8)
 		- uwsgi (python 3, mysql 8)
 		- vue js 2 (javascript)
+- 쇼핑적립 타부서로 이관 (03 ~ 07월)
 - 모여서 쿠폰 쓰기 달성 독려 푸시 배치 개발 (01 ~ 02월)
 	- 프론트 + 백엔드
 		- 푸시 알림/소재 관리 페이지 개발
@@ -125,6 +126,13 @@
 	- 기술스택
 		- spring boot 2.7 (mvc, mybatis, jsp, java, mysql 8)
 		- javascript, tui-grid, tui-datetime-picker
+- 배치 기능 개선 (03 ~ 05월)
+	- 백엔드
+		- 배치 오류 시 알림 기능 추가
+		- 불필요한 에러 로그 제거 및 발생하던 에러 수정
+	- 기술스택
+		- spring boot 2.7 (batch, mybatis, java, mysql 8)
+		- jenkins
 - 추천 브랜드 컬렉션 개발 (02 ~ 03월)
 	- 사용자가 검색한 키워드를 기반으로 추천해주는 서비스
 	- 프론트 + 백엔드
@@ -148,13 +156,16 @@
 	- 기술스택
 		- spring boot 2.7 (mvc, mybatis, kotlin, mysql 8)
 		- vue js 2 (javascript)
-- 쇼핑적립 이관 (2022년 08 ~ 02월)
-	- 쿠폰탭 쇼핑적립 노출 개발 (2022년 09 ~ 12월)
-	- MySQL 버전업
-- 배치 기능 개선
-	- 로깅 시스템 개선
-	- 배치 오류 시 알림 기능 추가
 ### 2022
+- 쇼핑적립 시스템 인수인계 (08 ~ 12월)
+	- 쿠폰탭 쇼핑적립 노출 개발 (09 ~ 12월)
+	- 
+	- MySQL 5.7 -> 8 버전업 (09 ~ 10월)
+- Spring Boot 2.0 -> 2.7 버전업 (08 ~ 11월)
+	- @Deprecated 코드 변경
+	- 삭제된 의존성 추가
+	- junit 4 -> 5 마이그레이션
+	- tomcat 버전업, 배포 스크립트 변경
 - CLO 센터 구축
 	- 프로모션 예산 배치
 	- 캠페인 상태 변경 배치
@@ -164,8 +175,6 @@
 	- Rest API 설계
 	- 캠페인 조회 API 개발
 	- 프로젝트 설정 (모니터링, WebClient 등)
-- Spring Boot 버전업
-- 쇼핑적립 시스템 인수인계
 ### 2021
 - DisplayAd 리타게팅 시스템 개발
 	- 레디스, API 서버 장비 세팅
