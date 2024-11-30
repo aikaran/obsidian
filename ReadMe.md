@@ -192,7 +192,7 @@
 		- spring boot 2.0 (mvc, mybatis, kotlin, java, mysql 8)
 		- spring boot 2.7 (mvc, java)
 		- vue js 2 (javascript)
-- 광고주센터 가맹점 키워드 기능 개선 & 개발 (2023년 12월 ~ 02월)
+- 광고주센터 가맹점 키워드 기능 개선 & 어뷰징 키워드 개발 (2021년 12월 ~ 02월)
 	- 프론트 + 백엔드
 		- 가맹점 동의어/키워드 분리
 		- 가맹점 어뷰징 키워드 신규 개발
@@ -248,16 +248,29 @@
 		- uwsgi (python 2, redis, mysql 8)
 ### 2020
 - 광고주센터
-	- 검색 가맹점 키워드 관리 기능 개발
-	- 광고주 관리 기능 개선
-	- 내 주변 쿠폰, 정보형 캠페인 개발
+	- 프론트 + 백엔드
+		- 검색 가맹점 키워드 관리 기능 개발
+		- 광고주 관리 기능 개선
+		- 내 주변 쿠폰, 정보형 캠페인 개발
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, kotlin, mysql 8)
+		- vue js 2 (javascript)
 - 어필리에이트 오류 대응
+	- 기술스택
+		- spring boot 2.0 (mvc, jsp, mybatis, java, mysql 8)
 - 이벤트 공유하기 기능 개발
+	- 기술스택
+		- spring boot 2.0 (mvc, jsp, mybatis, java, kotlin, mysql 8)
+		- vue js 2 (javascript)
 ### 2019
 - 광고주센터 개발
-	- 캠페인 관리
-	- 광고주 관리
-	- 결제 관리
-	- 캠페인 생성/수정 (이벤트 페이지)
+	- 프론트 + 백엔드
+		- 캠페인 관리
+		- 광고주 관리
+		- 결제 관리
+		- 캠페인 생성/수정 (이벤트 페이지)
+	- 기술스택
+		- spring boot 2.0 (mvc, mybatis, kotlin, mysql 8)
+		- vue js 2 (javascript)
 - 페이코 홈 개편 대응 개발
 - 신입사원 기술 교육
