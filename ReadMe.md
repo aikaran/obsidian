@@ -29,6 +29,7 @@
 	- 쿠폰 API 사용처 및 사이드 이펙트 조사
 	- 백엔드
 		- 쿠폰 API 응답값 변경 (Integer -> BigDecimal)
+		- 샵존 기능 리팩토링
 	- 기술스택
 		- spring boot 2.7 (mvc, batch, mybatis, jpa, kotlin, java, mysql 8)
 		- uwsgi (python 3, mysql 8)
