@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/dns/A 레코드 (Address Record) vs CNAME 레코드 (Canonical Name Record).md",
+                "file": "network/멀티 리전 DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "A 레코드 (Address Record) vs CNAME 레코드 (Canonical Name Record)"
+              "title": "멀티 리전 DNS"
             }
           }
         ],
@@ -220,10 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cfd6ffd4ea899de",
+  "active": "dec74531d34dde26",
   "lastOpenFiles": [
     "intellij/다이어그램/다이어그램.md",
-    "network/dns/A 레코드 (Address Record) vs CNAME 레코드 (Canonical Name Record).md",
+    "network/멀티 리전 DNS.md",
     "network/dns",
     "network/무제 파일.md",
     "network",
