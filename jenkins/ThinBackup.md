@@ -7,4 +7,6 @@ https://plugins.jenkins.io/thinBackup/#plugin-content-settings
 | ------ | ---------------------------------------------- | -------------------------- |
 | 2.0 이전 | Jenkins 관리 > ThinBackup > Settings             | /thinBackup/backupsettings |
 | 2.0 이후 | Jenkins 관리 > System > ThinBackup Configuration | /manage/configure          |
-백업이
+failFast 옵션
+
+
