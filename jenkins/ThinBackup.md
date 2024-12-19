@@ -15,4 +15,9 @@ failFast 옵션
 	- 이전 백업이 완료되지 않았으므로 신규 백업이 중단됨
 - ThinBackupPeriodicWork#backupNow: Cannot perform a backup. Please be sure Jenkins has write privileges in the configured backup path
 	- 쓰기 권한이 없어서 발생
+- 백업이 왜이리 오래 걸릴까
+	- 빌드 > config.xml > daysToKeep 태그 (오래된 빌드 삭제 옵션) 확인
+	- grep -L '\<daysToKeep>.\*\</daysToKeep>' /var/lib/jenkins/jobs/\*/config.xml
+	- 오래된 빌드 삭제 후 백업 성공
+	- 추측: 백업이 너무 오래 걸림 -> 백업이 밀림
 
