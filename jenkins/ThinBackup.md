@@ -18,6 +18,5 @@ failFast 옵션
 - 백업이 왜이리 오래 걸릴까
 	- 빌드 > config.xml > daysToKeep 태그 (오래된 빌드 삭제 옵션) 확인
 	- grep -L '\<daysToKeep>.\*\</daysToKeep>' /var/lib/jenkins/jobs/\*/config.xml
-	- 오래된 빌드 삭제 후 백업 성공
+	- 오래된 빌드 삭제 후 백업 성공 -> 오류 발생 멈춤
 	- 추측: 백업이 너무 오래 걸림 -> 백업이 밀림
-
