@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jenkins/ThinBackup.md",
+                "file": "jenkins/plugins/ThinBackup.md",
                 "mode": "source",
                 "source": false
               },
@@ -220,13 +220,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cfd6ffd4ea899de",
+  "active": "dec74531d34dde26",
   "lastOpenFiles": [
+    "monitoring",
+    "jenkins/plugins",
+    "spring/jpa/IdentifierGenerator.md",
+    "spring/jpa/spring.data.web.pageable.max-page-size.md",
+    "jenkins/plugins/ThinBackup.md",
     "attachment/Pasted image 20241101173302.png",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241101173153.png",
     "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
-    "jenkins/ThinBackup.md",
     "network/멀티 리전 DNS.md",
     "jenkins",
     "intellij/다이어그램/다이어그램.md",
@@ -234,7 +238,6 @@
     "network/무제 파일.md",
     "network",
     "kotlin/No-arg compiler plugin.md",
-    "spring/jpa/IdentifierGenerator.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
     "kotlin",
     "java/lombok/@Builder.md",
@@ -246,7 +249,6 @@
     "vue/라이프사이클 훅.md",
     "vue/Slots.md",
     "spring/batch/@StepScope.md",
-    "spring/jpa/spring.data.web.pageable.max-page-size.md",
     "spring/retry/@Retryable.md",
     "nginx",
     "mysql/Bulk Upsert.md",
@@ -255,7 +257,6 @@
     "intellij/코드 스타일/줄 바꿈.md",
     "mysql",
     "java/jackson",
-    "intellij/다이어그램",
     "attachment/Pasted image 20241029181329.png"
   ]
 }
