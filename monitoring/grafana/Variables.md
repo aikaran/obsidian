@@ -15,6 +15,8 @@ Settings > Variables
 		- Regex: jenkins-(alpha|real)
 
 ## 대시보드 적용
+
+metric 옆에 필터 추가, 아래는 예시
 ```json
 rate(jenkins_job_building_duration_count{job="jenkins-$변수명"}[1m])
 ```
