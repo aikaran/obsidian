@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jenkins/plugins/ThinBackup.md",
+                "file": "monitoring/grafana/Variables.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ThinBackup"
+              "title": "Variables"
             }
           }
         ],
@@ -220,13 +220,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dec74531d34dde26",
+  "active": "2cfd6ffd4ea899de",
   "lastOpenFiles": [
+    "jenkins/plugins/ThinBackup.md",
+    "monitoring/grafana/Variables.md",
+    "monitoring/grafana",
     "monitoring",
     "jenkins/plugins",
     "spring/jpa/IdentifierGenerator.md",
     "spring/jpa/spring.data.web.pageable.max-page-size.md",
-    "jenkins/plugins/ThinBackup.md",
     "attachment/Pasted image 20241101173302.png",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241101173153.png",
@@ -255,8 +257,6 @@
     "vue",
     "spring/jpa",
     "intellij/코드 스타일/줄 바꿈.md",
-    "mysql",
-    "java/jackson",
     "attachment/Pasted image 20241029181329.png"
   ]
 }
