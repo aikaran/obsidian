@@ -23,3 +23,8 @@ docker run -d --name redis_exporter -p 9121:9121 oliver006/redis_exporter
 ```bash
 docker run -d --name redis_exporter --network host oliver006/redis_exporter
 ```
+
+이름 지정한 거 stop하더라도 사라지는게 아니라서 아래 명령어로 제거해야함
+```bash
+docker rm $(docker ps -a --filter "status=exited" -q)
+```
