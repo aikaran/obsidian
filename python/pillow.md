@@ -1,0 +1,2 @@
+- Python 이미지 라이브러리
+- PIL (Python Imaging Library) 포크 버전
