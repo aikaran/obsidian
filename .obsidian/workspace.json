@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "광고/파일럿 프로그램.md",
+                "file": "linux/zcat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "파일럿 프로그램"
+              "title": "zcat"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "광고/파일럿 프로그램.md"
+                "file": "linux/zcat.md"
               },
               "icon": "lucide-list",
-              "title": "파일럿 프로그램 개요"
+              "title": "zcat 개요"
             }
           }
         ],
@@ -166,17 +166,19 @@
   },
   "active": "02873fafd7aae742",
   "lastOpenFiles": [
+    "python/pillow.md",
+    "linux/zcat.md",
+    "linux",
+    "광고/파일럿 프로그램.md",
     "monitoring/redis/redis_exporter.md",
     "vue/Slots.md",
     "vue/라이프사이클 훅.md",
-    "광고/파일럿 프로그램.md",
     "mysql/Bulk Upsert.md",
     "mysql",
     "ReadMe.md",
     "conflict-files-obsidian-git.md",
     "db/mongodb.md",
     "광고",
-    "python/pillow.md",
     "db",
     "crawling/playwright.md",
     "python",
@@ -194,7 +196,6 @@
     "jenkins/plugins/ThinBackup.md",
     "monitoring/grafana",
     "monitoring",
-    "jenkins/plugins",
     "spring/jpa/IdentifierGenerator.md",
     "spring/jpa/spring.data.web.pageable.max-page-size.md",
     "attachment/Pasted image 20241101173302.png",
@@ -205,7 +206,6 @@
     "java/lombok/@Builder.md",
     "nginx/access_log.md",
     "nginx/default_server.md",
-    "nginx/설정 파일 지정.md",
     "attachment/Pasted image 20241029181329.png"
   ]
 }
