@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "python/redis-py.md",
+                "file": "python/asyncio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "redis-py"
+              "title": "asyncio"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "python/redis-py.md"
+                "file": "python/asyncio.md"
               },
               "icon": "lucide-list",
-              "title": "redis-py 개요"
+              "title": "asyncio 개요"
             }
           }
         ],
@@ -166,8 +166,11 @@
   },
   "active": "02873fafd7aae742",
   "lastOpenFiles": [
-    "python/json.md",
+    "python/time.md",
+    "python/asyncio.md",
+    "python/*.md",
     "python/redis-py.md",
+    "python/json.md",
     "python/defaultdict(list).md",
     "python/for ... in ....md",
     "db/mysql/Bulk Upsert.md",
@@ -195,11 +198,8 @@
     "network/tcp vs tcp6.md",
     "kotlin/No-arg compiler plugin.md",
     "network/멀티 리전 DNS.md",
-    "monitoring/grafana/Variables.md",
-    "docker/run.md",
     "docker",
     "monitoring/redis",
-    "jenkins/plugins/ThinBackup.md",
     "monitoring/grafana",
     "monitoring",
     "attachment/Pasted image 20241101173302.png",
