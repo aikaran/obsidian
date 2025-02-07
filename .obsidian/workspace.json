@@ -166,8 +166,9 @@
   },
   "active": "02873fafd7aae742",
   "lastOpenFiles": [
-    "python/time.md",
+    "crawling/playwright.md",
     "python/asyncio.md",
+    "python/time.md",
     "python/*.md",
     "python/redis-py.md",
     "python/json.md",
@@ -190,7 +191,6 @@
     "db/mongodb.md",
     "광고",
     "db",
-    "crawling/playwright.md",
     "python",
     "crawling",
     "java/math/BigDecimal.md",
