@@ -76,3 +76,13 @@ public class Main {
     }
 }
 ```
+
+값 비교
+```java
+BigDecimal a = new BigDecimal("10.00");
+BigDecimal b = new BigDecimal("10.0");
+
+if (a.compareTo(b) == 0) {
+    System.out.println("a와 b는 같은 값이다."); // ✅ 출력됨
+}
+```
