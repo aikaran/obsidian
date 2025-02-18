@@ -25,14 +25,12 @@
             "id": "3d98d1f02c927620",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "python/*.md",
-                "mode": "source",
-                "source": false
+                "file": "attachment/Pasted image 20241101173153.png"
               },
-              "icon": "lucide-file",
-              "title": "*"
+              "icon": "lucide-image",
+              "title": "Pasted image 20241101173153"
             }
           }
         ],
@@ -182,14 +180,16 @@
   },
   "active": "3d98d1f02c927620",
   "lastOpenFiles": [
+    "attachment/Pasted image 20241101173302.png",
+    "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
+    "java/math/BigDecimal.md",
+    "ReadMe.md",
+    "python/*.md",
     "python/for ... in ....md",
     "python/defaultdict(list).md",
     "python/asyncio.md",
     "python/time.md",
-    "python/*.md",
     "java/lombok/@Builder.md",
-    "ReadMe.md",
-    "java/math/BigDecimal.md",
     "spring/batch/FlatFileItemReader FlatFileItemWriter.md",
     "spring/batch/@StepScope.md",
     "crawling/playwright.md",
@@ -213,15 +213,12 @@
     "db",
     "python",
     "crawling",
-    "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
     "docker",
     "monitoring/redis",
     "monitoring/grafana",
     "monitoring",
-    "attachment/Pasted image 20241101173302.png",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241101173153.png",
-    "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
     "attachment/Pasted image 20241029181329.png"
   ]
 }
