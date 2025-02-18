@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/math/BigDecimal.md",
+                "file": "python/*.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BigDecimal"
+              "title": "*"
             }
           }
         ],
@@ -55,7 +55,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "파일 탐색기"
@@ -170,10 +171,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
+      "switcher:빠른 전환기 열기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
       "command-palette:명령어 팔레트 열기": false,
       "obsidian-git:Open Git source control": false
@@ -181,17 +182,19 @@
   },
   "active": "3d98d1f02c927620",
   "lastOpenFiles": [
-    "spring/batch/FlatFileItemReader FlatFileItemWriter.md",
-    "spring/batch/@StepScope.md",
-    "ReadMe.md",
+    "python/for ... in ....md",
+    "python/defaultdict(list).md",
     "python/asyncio.md",
-    "crawling/playwright.md",
     "python/time.md",
     "python/*.md",
+    "java/lombok/@Builder.md",
+    "ReadMe.md",
+    "java/math/BigDecimal.md",
+    "spring/batch/FlatFileItemReader FlatFileItemWriter.md",
+    "spring/batch/@StepScope.md",
+    "crawling/playwright.md",
     "python/redis-py.md",
     "python/json.md",
-    "python/defaultdict(list).md",
-    "python/for ... in ....md",
     "db/mysql/Bulk Upsert.md",
     "db/mysql/locate.md",
     "python/GIL(Global Interpreter Lock).md",
@@ -210,9 +213,7 @@
     "db",
     "python",
     "crawling",
-    "java/math/BigDecimal.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
-    "network/tcp vs tcp6.md",
     "docker",
     "monitoring/redis",
     "monitoring/grafana",
