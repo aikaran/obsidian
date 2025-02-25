@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/@ConstructorBinding.md",
+                "file": "vue/vuex getters.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ConstructorBinding"
+              "title": "vuex getters"
             }
           }
         ],
@@ -194,8 +194,9 @@
   },
   "active": "027c78a904b8b3c5",
   "lastOpenFiles": [
-    "linux/zcat.md",
     "spring/@ConstructorBinding.md",
+    "vue/vuex getters.md",
+    "linux/zcat.md",
     "spring/mock/@SpyBean.md",
     "maven/exclusions.md",
     "spring/mock",
@@ -225,7 +226,6 @@
     "monitoring/redis/redis_exporter.md",
     "vue/Slots.md",
     "vue/라이프사이클 훅.md",
-    "mysql/Bulk Upsert.md",
     "mysql",
     "광고",
     "db",
