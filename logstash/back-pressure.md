@@ -1,0 +1,4 @@
+- RabbitMQ 과부하 시 생산자의 속도를 늦추는 메커니즘
+- 해소되면 back-pressure removed
+- 네트워크 이슈로도 발생할 수 있음
+	- 메시지를 보내지 못함 -> back-pressure 적용

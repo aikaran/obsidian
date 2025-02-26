@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue/vuex getters.md",
+                "file": "logstash/back-pressure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vuex getters"
+              "title": "back-pressure"
             }
           }
         ],
@@ -194,8 +194,10 @@
   },
   "active": "027c78a904b8b3c5",
   "lastOpenFiles": [
-    "spring/@ConstructorBinding.md",
     "vue/vuex getters.md",
+    "logstash/back-pressure.md",
+    "logstash",
+    "spring/@ConstructorBinding.md",
     "linux/zcat.md",
     "spring/mock/@SpyBean.md",
     "maven/exclusions.md",
@@ -225,14 +227,12 @@
     "광고/파일럿 프로그램.md",
     "monitoring/redis/redis_exporter.md",
     "vue/Slots.md",
-    "vue/라이프사이클 훅.md",
     "mysql",
     "광고",
     "db",
     "python",
     "crawling",
     "docker",
-    "monitoring/redis",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241029181329.png"
   ]
