@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logstash/back-pressure.md",
+                "file": "nginx/사이트 별 설정 분리하기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "back-pressure"
+              "title": "사이트 별 설정 분리하기"
             }
           }
         ],
@@ -194,8 +194,9 @@
   },
   "active": "027c78a904b8b3c5",
   "lastOpenFiles": [
-    "vue/vuex getters.md",
     "logstash/back-pressure.md",
+    "nginx/사이트 별 설정 분리하기.md",
+    "vue/vuex getters.md",
     "logstash",
     "spring/@ConstructorBinding.md",
     "linux/zcat.md",
@@ -226,7 +227,6 @@
     "linux",
     "광고/파일럿 프로그램.md",
     "monitoring/redis/redis_exporter.md",
-    "vue/Slots.md",
     "mysql",
     "광고",
     "db",
