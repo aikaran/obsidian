@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/@ConstructorBinding.md",
+                "file": "github copilot/SK 플래닛 사용 사례.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@ConstructorBinding"
+              "title": "SK 플래닛 사용 사례"
             }
           }
         ],
@@ -194,6 +194,9 @@
   },
   "active": "027c78a904b8b3c5",
   "lastOpenFiles": [
+    "spring/@ConstructorBinding.md",
+    "github copilot/SK 플래닛 사용 사례.md",
+    "github copilot",
     "ReadMe.md",
     "vue/vuex getters.md",
     "vue/Slots.md",
@@ -209,7 +212,6 @@
     "nginx/사이트 별 설정 분리하기.md",
     "logstash/back-pressure.md",
     "logstash",
-    "spring/@ConstructorBinding.md",
     "linux/zcat.md",
     "spring/mock/@SpyBean.md",
     "maven/exclusions.md",
@@ -225,14 +227,12 @@
     "python/asyncio.md",
     "python/time.md",
     "java/lombok/@Builder.md",
-    "spring/batch/FlatFileItemReader FlatFileItemWriter.md",
     "linux",
     "mysql",
     "광고",
     "db",
     "python",
     "crawling",
-    "docker",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241029181329.png"
   ]
