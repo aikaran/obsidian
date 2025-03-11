@@ -6,3 +6,4 @@ https://docs.spring.io/spring-framework/reference/web/webflux-webclient/client-b
 | write timeout      | 요청 대기    |
 | read timeout       | 응답 대기    |
 | response timeout   | 응답 완료 대기 |
+- 서로 겹치는 시간은 없음
