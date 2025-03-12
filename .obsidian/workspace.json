@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "network/timeout.md",
+                "file": "github copilot/SK 플래닛 사용 사례.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "timeout"
+              "title": "SK 플래닛 사용 사례"
             }
           }
         ]
@@ -165,10 +165,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "056eab40f828a63a",
+  "active": "dec74531d34dde26",
   "lastOpenFiles": [
-    "무제.md",
     "network/timeout.md",
+    "무제.md",
     "python/asyncio.md",
     "attachment/Pasted image 20241101173153.png",
     "github copilot/SK 플래닛 사용 사례.md",
