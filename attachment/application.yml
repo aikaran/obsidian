@@ -1,0 +1,13 @@
+spring:
+  redis:
+    cluster:
+      nodes: 10.162.5.222:7101,10.162.5.222:7102,10.162.5.222:7103
+      max-redirects: 5
+    lettuce:
+      pool:
+        enabled: true
+        max-active: 300
+        max-idle: 300
+        min-idle: 10
+        max-wait: 1000
+        time-between-eviction-runs: 30000
