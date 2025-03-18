@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github copilot/SK 플래닛 사용 사례.md",
+                "file": "spring/redis/redis 설정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SK 플래닛 사용 사례"
+              "title": "redis 설정"
             }
           }
         ]
@@ -165,13 +165,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dec74531d34dde26",
+  "active": "056eab40f828a63a",
   "lastOpenFiles": [
+    "spring/spring.factories.md",
+    "spring/redis/redis 설정.md",
+    "spring/redis",
+    "github copilot/SK 플래닛 사용 사례.md",
+    "spring/redis",
     "network/timeout.md",
     "무제.md",
     "python/asyncio.md",
     "attachment/Pasted image 20241101173153.png",
-    "github copilot/SK 플래닛 사용 사례.md",
     "spring/@ConstructorBinding.md",
     "github copilot",
     "ReadMe.md",
@@ -198,14 +202,10 @@
     "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
     "java/math/BigDecimal.md",
     "python/*.md",
-    "python/for ... in ....md",
-    "python/defaultdict(list).md",
     "linux",
     "mysql",
     "광고",
     "db",
-    "python",
-    "crawling",
     "attachment/Pasted image 20241219114528.png",
     "attachment/Pasted image 20241029181329.png"
   ]
