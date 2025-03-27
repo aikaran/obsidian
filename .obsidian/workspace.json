@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/lombok/@With.md",
+                "file": "nginx/설정 파일 지정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@With"
+              "title": "설정 파일 지정"
             }
           }
         ]
@@ -167,8 +167,8 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "무제.md",
     "java/lombok/@With.md",
+    "무제.md",
     "java/lombok/@Builder.md",
     "spring/redis/spring-boot-starter-data-redis.md",
     "java/MapStruct.md",
