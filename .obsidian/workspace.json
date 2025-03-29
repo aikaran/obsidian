@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/Spread_syntax.md",
+                "file": "kotlin/지연 계산(lazy).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spread_syntax"
+              "title": "지연 계산(lazy)"
             }
           }
         ]
@@ -167,8 +167,10 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "nginx/설정 파일 지정.md",
+    "kotlin/No-arg compiler plugin.md",
+    "kotlin/지연 계산(lazy).md",
     "js/Spread_syntax.md",
+    "nginx/설정 파일 지정.md",
     "js",
     "java/lombok/@With.md",
     "무제.md",
@@ -197,8 +199,6 @@
     "db/mysql/locate.md",
     "db/mysql/Bulk Upsert.md",
     "crawling/playwright.md",
-    "광고/파일럿 프로그램.md",
-    "nginx/사이트 별 설정 분리하기.md",
     "logstash",
     "spring/mock",
     "maven",
