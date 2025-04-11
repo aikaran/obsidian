@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/lombok/@With.md",
+                "file": "postman/Environment.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "@With"
+              "title": "Environment"
             }
           }
         ]
@@ -177,10 +177,13 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
+    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
+    "postman/Environment.md",
+    "postman",
+    "java/lombok/@With.md",
     "java/lombok/@Builder.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
     "java/CompletableFuture/Stream과 같이 쓰기.md",
-    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "java/MapStruct/MapStruct.md",
     "java/MapStruct",
     "kotlin/지연 계산(lazy).md",
@@ -189,7 +192,6 @@
     "js/Spread_syntax.md",
     "nginx/설정 파일 지정.md",
     "js",
-    "java/lombok/@With.md",
     "무제.md",
     "spring/redis/spring-boot-starter-data-redis.md",
     "java/MapStruct.md",
@@ -210,10 +212,8 @@
     "vue/라이프사이클 훅.md",
     "intellij/코드 스타일/줄 바꿈.md",
     "intellij/다이어그램/다이어그램.md",
-    "docker/run.md",
     "logstash",
     "spring/mock",
-    "maven",
     "attachment/Pasted image 20241101173302.png",
     "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
     "attachment/Pasted image 20241219114528.png",
