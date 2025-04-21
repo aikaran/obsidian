@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "postman/Environment.md",
+                "file": "spring/@PreDestroy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Environment"
+              "title": "@PreDestroy"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "postman/Environment.md",
+    "spring/@PreDestroy.md",
+    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "postman",
     "java/lombok/@With.md",
     "java/lombok/@Builder.md",
@@ -211,7 +212,6 @@
     "vue/Slots.md",
     "vue/라이프사이클 훅.md",
     "intellij/코드 스타일/줄 바꿈.md",
-    "intellij/다이어그램/다이어그램.md",
     "logstash",
     "spring/mock",
     "attachment/Pasted image 20241101173302.png",
