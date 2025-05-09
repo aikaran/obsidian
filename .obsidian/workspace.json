@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/로그 모아보기.md",
+                "file": "linux/atomic copy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "로그 모아보기"
+              "title": "atomic copy"
             }
           }
         ]
@@ -177,8 +177,9 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "java/debug/원격 디버깅.md",
     "linux/로그 모아보기.md",
+    "linux/atomic copy.md",
+    "java/debug/원격 디버깅.md",
     "spring/@PreDestroy.md",
     "java/debug",
     "postman/Environment.md",
@@ -212,7 +213,6 @@
     "github copilot",
     "ReadMe.md",
     "vue/vuex getters.md",
-    "vue/Slots.md",
     "logstash",
     "attachment/Pasted image 20241101173302.png",
     "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
