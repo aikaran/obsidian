@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/atomic copy.md",
+                "file": "logstash/monitoring.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "atomic copy"
+              "title": "monitoring"
             }
           }
         ]
@@ -177,8 +177,11 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "linux/로그 모아보기.md",
+    "ReadMe.md",
+    "logstash/monitoring.md",
+    "logstash/back-pressure.md",
     "linux/atomic copy.md",
+    "linux/로그 모아보기.md",
     "java/debug/원격 디버깅.md",
     "spring/@PreDestroy.md",
     "java/debug",
@@ -209,10 +212,7 @@
     "network/timeout.md",
     "python/asyncio.md",
     "attachment/Pasted image 20241101173153.png",
-    "spring/@ConstructorBinding.md",
     "github copilot",
-    "ReadMe.md",
-    "vue/vuex getters.md",
     "logstash",
     "attachment/Pasted image 20241101173302.png",
     "attachment/스크린샷 2024-11-01 오후 3.11.43.png",
