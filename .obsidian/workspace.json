@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logstash/troubleshooting.md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "troubleshooting"
+              "title": "ReadMe"
             }
           }
         ]
@@ -177,9 +177,10 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
+    "logstash/persistent-queues.md",
     "logstash/monitoring.md",
-    "logstash/troubleshooting.md",
     "logstash/back-pressure.md",
+    "logstash/troubleshooting.md",
     "ReadMe.md",
     "linux/atomic copy.md",
     "linux/로그 모아보기.md",
@@ -210,7 +211,6 @@
     "spring/redis",
     "github copilot/SK 플래닛 사용 사례.md",
     "spring/redis",
-    "network/timeout.md",
     "attachment/Pasted image 20241101173153.png",
     "github copilot",
     "logstash",

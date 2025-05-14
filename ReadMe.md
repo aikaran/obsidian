@@ -14,7 +14,9 @@
 재직 기간: 2019.03 - 현재
 ## 주요 개발 경험
 ### 2025
-- 로그스태시 모니터링 추가 (5월)
+- 로그스태시 트러블슈팅 (5월)
+	- 모니터링 구성 (exporter(docker) + prometheus + grafana dashboard)
+	- Persistent queues (PQ) 구성
 - 개인화 컬렉션 고도화 (3~4월)
 - 쿠폰 리워드 프로그램 개발 (2월)
 - 사내 모니터링 시스템 grafana + telegraf 전환 (1월)
