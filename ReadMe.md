@@ -14,6 +14,9 @@
 재직 기간: 2019.03 - 현재
 ## 주요 개발 경험
 ### 2025
+- 페이백 매체 URL 개선 (6월)
+	- 레거시 전환 (vue.js, jquery -> 바닐라 js)
+	- 미사용 코드 제거
 - 로그스태시 트러블슈팅 (5월)
 	- 모니터링 구성 (exporter(docker) + prometheus + grafana dashboard)
 	- Persistent queues (PQ) 구성
