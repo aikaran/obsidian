@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "logstash/plugins/inputs/file.md",
+                "file": "java/jvm/G1GC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "file"
+              "title": "G1GC"
             }
           }
         ]
@@ -177,15 +177,18 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "python/문자열 포맷팅.md",
+    "maven/exclusions.md",
+    "java/jvm/G1GC.md",
+    "ReadMe.md",
+    "java/CompletableFuture/Stream과 같이 쓰기.md",
+    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "logstash/plugins/inputs/file.md",
+    "python/문자열 포맷팅.md",
     "logstash/plugins/inputs",
     "logstash/plugins",
-    "java/jvm/G1GC.md",
     "js/Spread_syntax.md",
     "java/jvm",
     "js/Optional chaining.md",
-    "ReadMe.md",
     "java/jsp/조건부 렌더링.md",
     "java/jsp/enum  렌더링.md",
     "docker/run.md",
@@ -201,15 +204,12 @@
     "spring/@PreDestroy.md",
     "java/debug",
     "postman/Environment.md",
-    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "postman",
     "java/lombok/@With.md",
     "java/lombok/@Builder.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
-    "java/CompletableFuture/Stream과 같이 쓰기.md",
     "java/MapStruct/MapStruct.md",
     "java/MapStruct",
-    "kotlin/지연 계산(lazy).md",
     "java/CompletableFuture",
     "js",
     "attachment/application.yml",
