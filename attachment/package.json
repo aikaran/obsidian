@@ -1,0 +1,21 @@
+{
+  "name": "legacy-js-support-project",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "browserslist": [
+    ">0.25%",
+    "not dead",
+    "ie 11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "babel-preset-minify": "^0.5.1",
+    "core-js": "^3.32.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
