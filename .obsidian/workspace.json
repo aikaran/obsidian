@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/jvm/gctuning/9 Garbage-First Garbage Collector.md",
+                "file": "java/jvm/gctuning/10 Garbage-First Garbage Collector Tuning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 Garbage-First Garbage Collector"
+              "title": "10 Garbage-First Garbage Collector Tuning"
             }
           }
         ]
@@ -177,13 +177,14 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "java/jvm/gctuning/G1GC.md",
     "java/jvm/gctuning/9 Garbage-First Garbage Collector.md",
     "java/jvm/gctuning/8 Concurrent Mark Sweep (CMS) Collector.md",
     "java/jvm/gctuning/7 The Mostly Concurrent Collectors.md",
     "java/jvm/gctuning/6 The Parallel Collector.md",
     "java/jvm/gctuning/5 Available Collectors.md",
     "java/jvm/gctuning/4 Sizing the Generations.md",
+    "java/jvm/gctuning/10 Garbage-First Garbage Collector Tuning.md",
+    "java/jvm/gctuning/G1GC.md",
     "java/jvm/gctuning",
     "js/production build/구성.md",
     "attachment/webpack.config.js",
@@ -211,7 +212,6 @@
     "logstash/monitoring.md",
     "logstash/back-pressure.md",
     "logstash/troubleshooting.md",
-    "linux/atomic copy.md",
     "java/debug",
     "attachment/Pasted image 20241101173153.png",
     "attachment/Pasted image 20241101173302.png",
