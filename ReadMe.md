@@ -10,6 +10,7 @@
 ### 2025
 - jvm gc 트러블슈팅 (7월)
 	- gc 전환 및 모니터링
+	- java/jvm/Garbage Collector/gc pause time 튜닝.md
 - 개인화 추천 스코어링 트러블슈팅 (7월)
 	- 유저-가맹점 추천 로직 이슈 추적
 - 모델링 데이터 이관 (7월)
