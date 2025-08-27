@@ -8,6 +8,8 @@
 재직 기간: 2019.03 - 현재
 ## 주요 개발 경험
 ### 2025
+- wca(web crawling agent) 인수인계 (8월)
+	- python, mongodb, rabbitmq, redis
 - jvm gc 트러블슈팅 (7월)
 	- gc 전환 및 모니터링
 	- java/jvm/Garbage Collector/gc pause time 튜닝.md
