@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/jvm/Garbage Collector/gc pause time 튜닝.md",
+                "file": "광고/래플 이벤트(Raffle Event).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gc pause time 튜닝"
+              "title": "래플 이벤트(Raffle Event)"
             }
           }
         ]
@@ -177,10 +177,11 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
+    "java/jvm/Garbage Collector/gc pause time 튜닝.md",
+    "광고/래플 이벤트(Raffle Event).md",
     "ReadMe.md",
     "java/jvm/Garbage Collector/4 Sizing the Generations.md",
     "java/debug/원격 디버깅.md",
-    "java/jvm/Garbage Collector/gc pause time 튜닝.md",
     "attachment/Pasted image 20250811164836.png",
     "java/jvm/Garbage Collector/10 Garbage-First Garbage Collector Tuning.md",
     "java/jvm/Garbage Collector/9 Garbage-First Garbage Collector.md",
@@ -209,7 +210,6 @@
     "attachment/babel.config.js",
     "js/Optional chaining.md",
     "js/production build",
-    "js/Spread_syntax.md",
     "logstash/plugins/inputs",
     "logstash/plugins",
     "java/jvm",
