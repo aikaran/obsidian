@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "광고/래플 이벤트(Raffle Event).md",
+                "file": "ReadMe.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "래플 이벤트(Raffle Event)"
+              "title": "ReadMe"
             }
           }
         ]
@@ -177,9 +177,10 @@
   },
   "active": "056eab40f828a63a",
   "lastOpenFiles": [
-    "java/jvm/Garbage Collector/gc pause time 튜닝.md",
     "광고/래플 이벤트(Raffle Event).md",
+    "광고/파일럿 프로그램.md",
     "ReadMe.md",
+    "java/jvm/Garbage Collector/gc pause time 튜닝.md",
     "java/jvm/Garbage Collector/4 Sizing the Generations.md",
     "java/debug/원격 디버깅.md",
     "attachment/Pasted image 20250811164836.png",
@@ -194,7 +195,6 @@
     "db/mongodb.md",
     "db/mysql/locate.md",
     "db/mysql/Bulk Upsert.md",
-    "광고/파일럿 프로그램.md",
     "nginx/사이트 별 설정 분리하기.md",
     "nginx/default_server.md",
     "nginx/access_log.md",

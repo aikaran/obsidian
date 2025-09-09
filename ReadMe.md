@@ -8,6 +8,12 @@
 재직 기간: 2019.03 - 현재
 ## 주요 개발 경험
 ### 2025
+- 페이코 10주년 이벤트 (9월)
+	- 경품 이벤트 DB 설계 (jpa, mysql)
+	- 경품 이벤트 API 작업 (java)
+	- 이벤트 페이지 화면 동작 작업 (js, jsp)
+	- 데이터 추출 쿼리 작성 (mysql)
+	- api client 리팩토링 (spring boot auto config)
 - wca(web crawling agent) 인수인계 (8월)
 	- python, mongodb, rabbitmq, redis
 - jvm gc 트러블슈팅 (7월)
