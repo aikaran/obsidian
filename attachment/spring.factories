@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.payco.event.shared.client.paycoid.config.PaycoIdApiConfig
+org.springframework.boot.env.EnvironmentPostProcessor=\
+  com.payco.event.shared.client.paycoid.config.ConfigLoader
