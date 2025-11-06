@@ -4,37 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "7b075bc80385f782",
+        "id": "9854b7d78afd8c6d",
         "type": "tabs",
         "children": [
           {
-            "id": "056eab40f828a63a",
+            "id": "4ceca8433239cd53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring/라이브러리 properties 값 자동으로 설정하기.md",
+                "file": "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "라이브러리 properties 값 자동으로 설정하기"
-            }
-          },
-          {
-            "id": "bb7333b669f172e7",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "릴리즈 노트 1.9.14"
+              "title": "여러 이벤트 리스너 등록 시 페이지 이동 경합 문제"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,9 +176,10 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "bb7333b669f172e7",
+  "active": "4ceca8433239cd53",
   "lastOpenFiles": [
     "ReadMe.md",
+    "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
     "spring/라이브러리 properties 값 자동으로 설정하기.md",
     "attachment/spring.factories",
     "spring/spring.factories.md",
