@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
+                "file": "js/production build/구성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "여러 이벤트 리스너 등록 시 페이지 이동 경합 문제"
+              "title": "구성"
             }
           }
         ]
@@ -176,10 +176,12 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4ceca8433239cd53",
+  "active": "dec74531d34dde26",
   "lastOpenFiles": [
-    "ReadMe.md",
     "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
+    "js/Spread_syntax.md",
+    "js/Optional chaining.md",
+    "ReadMe.md",
     "spring/라이브러리 properties 값 자동으로 설정하기.md",
     "attachment/spring.factories",
     "spring/spring.factories.md",
@@ -205,8 +207,6 @@
     "nginx/access_log.md",
     "nginx/설정 파일 지정.md",
     "vue/vuex getters.md",
-    "vue/Slots.md",
-    "vue/라이프사이클 훅.md",
     "java/jvm/Garbage Collector",
     "attachment/webpack.config.js",
     "attachment/package.json",
