@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/CompletableFuture/Stream과 같이 쓰기.md",
+                "file": "spring/batch/@ComponentScan.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stream과 같이 쓰기"
+              "title": "@ComponentScan"
             }
           }
         ]
@@ -178,6 +178,11 @@
   },
   "active": "4ceca8433239cd53",
   "lastOpenFiles": [
+    "spring/jpa/Mybatis와 Jpa Bean 이름 충돌.md",
+    "spring/batch/@ComponentScan.md",
+    "spring/jpa/IdentifierGenerator.md",
+    "spring/jpa/spring.data.web.pageable.max-page-size.md",
+    "java/CompletableFuture/Stream과 같이 쓰기.md",
     "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
     "js/production build/구성.md",
@@ -202,11 +207,6 @@
     "ai/Model Context Protocol.md",
     "ai",
     "db/mongodb.md",
-    "db/mysql/locate.md",
-    "db/mysql/Bulk Upsert.md",
-    "nginx/사이트 별 설정 분리하기.md",
-    "nginx/default_server.md",
-    "nginx/access_log.md",
     "java/jvm/Garbage Collector",
     "attachment/webpack.config.js",
     "attachment/package.json",
