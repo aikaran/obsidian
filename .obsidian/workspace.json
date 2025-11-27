@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/production build/구성.md",
+                "file": "java/CompletableFuture/Stream과 같이 쓰기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "구성"
+              "title": "Stream과 같이 쓰기"
             }
           }
         ]
@@ -176,9 +176,11 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "dec74531d34dde26",
+  "active": "4ceca8433239cd53",
   "lastOpenFiles": [
+    "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
     "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
+    "js/production build/구성.md",
     "js/Spread_syntax.md",
     "js/Optional chaining.md",
     "ReadMe.md",
@@ -205,8 +207,6 @@
     "nginx/사이트 별 설정 분리하기.md",
     "nginx/default_server.md",
     "nginx/access_log.md",
-    "nginx/설정 파일 지정.md",
-    "vue/vuex getters.md",
     "java/jvm/Garbage Collector",
     "attachment/webpack.config.js",
     "attachment/package.json",
