@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
+                "file": "js/production build/구성.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "여러 이벤트 리스너 등록 시 페이지 이동 경합 문제"
+              "title": "구성"
             }
           }
         ]
@@ -179,6 +179,7 @@
   "active": "4ceca8433239cd53",
   "lastOpenFiles": [
     "ReadMe.md",
+    "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
     "java/jackson/@JsonTypeInfo, @JsonSubTypes.md",
     "java/debug/원격 디버깅.md",
     "java/CompletableFuture/Stream과 같이 쓰기.md",
@@ -203,7 +204,6 @@
     "spring/batch/@ComponentScan.md",
     "spring/batch/FlatFileItemReader FlatFileItemWriter.md",
     "java/CompletableFuture/ExecutorService와 같이 사용하기.md",
-    "js/여러 이벤트 리스너 등록 시 페이지 이동 경합 문제.md",
     "js/production build/구성.md",
     "js/Spread_syntax.md",
     "js/Optional chaining.md",

@@ -1,12 +1,69 @@
-## 주요 보유 기술
-프로그래밍 언어: javascript, java, kotlin, sql(mysql)
-
-프레임워크: spring framework, vue.js
 ## 주요 경력 사항
 회사: NHN PAYCO
 
 재직 기간: 2019.03 - 현재
+## 핵심 역량
+
+- Java/Spring 기반 대규모 광고 플랫폼 백엔드 개발
+- 이벤트 페이지 프론트엔드(JSP/JavaScript) 개발
+- 데이터 파이프라인 설계 및 배치 시스템 운영
+- Python 기반 웹 크롤러 개발 및 유지보수
+- 인프라 모니터링 및 보안 취약점 대응
+
+---
+
+## 기술 스택
+
+| 영역       | 기술                                                          |
+| -------- | ----------------------------------------------------------- |
+| Backend  | Java, Spring Framework, Spring Boot, JPA/Hibernate, MyBatis |
+| Frontend | JSP, JavaScript, jQuery                                     |
+| Database | MySQL, Redis Cluster                                        |
+| Batch    | Spring Batch, Quartz Scheduler                              |
+| Infra    | Nginx/OpenResty (Lua), Jenkins, Grafana, Prometheus         |
+| Crawler  | Python, REST API Reverse Engineering, HTML Parsing          |
+| Tools    | Git, GitHub Enterprise, Dooray (프로젝트 관리)                    |
 ## 주요 개발 경험
+### 쿠폰 강화 시스템 신규 개발 (2025.12 ~ 2026.02)
+
+**개요**: 기존 쿠폰에 게임화(Gamification) 요소를 접목한 강화 시스템 설계 및 개발. 사용자가 카드를 선택하여 쿠폰 할인율을 랜덤으로 강화하는 기능.
+
+**담당 영역**:
+
+- 아키텍처 설계: 강화 페이지, 트래픽 로그, 로그 시스템 전반의 설계 문서 작성
+- 기능 명세서 작성 및 구현
+- 일별 발급/사용 리포트 지표 신규 추가 (Batch 집계 + Admin 조회/엑셀 다운로드)
+
+**기술적 성과**:
+
+- **시간 기반 구간 매핑 컴포넌트 설계**: 발급 기간을 시간대별로 분할 관리하는 공통 컴포넌트를 개발하여 재사용성 확보
+- **Redis Cluster 기반 사용자 세그먼트 관리**: 테스트 그룹 및 유저 세그먼트를 Redis에서 실시간 조회하여 A/B 테스트 지원
+- **트래픽 로그 체계 설계**: 서비스 페이지 진입 → 발급 완료 → 사용까지의 전체 퍼널을 추적하는 로그 시스템 구축
+- **상태 전이 안전성 검증**: 결제 실패 시 강화쿠폰 원복(롤백) 처리에서 JPA 영속성 컨텍스트 이슈 분석 및 해결. 단방향 상태 흐름에서 양방향 전이 가능 구조로의 안전한 전환
+- **비정답 강화율 알고리즘 개선**: 3구간 → 2구간 방식으로 변경하여 사용자 경험 개선, 중복 배제 로직 적용
+- **리포트 시스템 확장**: 기존 HashMap 응답을 제네릭 POJO(PagedContentResponse)로 리팩토링하여 타입 안전성 향상
+
+**기술 스택**: Java, Spring, JPA, Redis Cluster, MyBatis, JSP, JavaScript, Spring Batch
+
+### CLO(Card Linked Offer) 캠페인 관리 시스템 개선 (2025.09 ~ 2026.02)
+
+**개요**: 결제 연동형 광고 캠페인 관리 시스템의 데이터 정합성 강화 및 리포트 확장.
+
+**담당 영역**:
+
+- 결제사 혜택 ID 유효성 검사 조건 개선
+- 통합 리포트에 쿠폰 발급/사용 지표 추가
+- 클릭 적립 캠페인 이벤트 페이지 기능 개선
+- 결제 상태 변경 알림 오류 대응
+
+**기술적 성과**:
+
+- **DB 스키마 최적화**: 결제사 혜택 ID의 Unique Index → Primary Key 전환으로 데이터 정합성 강화. 기존 77건의 중복 데이터 정리 및 마이그레이션
+- **결제 상태 변경 알림 오류 원인 분석**: 매월 초 발생하던 메일 발송 오류의 로그를 분석하여, 이메일 템플릿 null 반환 시 null 체크 없이 발송을 시도하는 근본 원인을 식별하고 개선 방향 제시
+- **미사용 코드 정리**: 레거시 API 엔드포인트 및 컨트롤러 메서드 체계적 제거
+- **통합 리포트 확장**: 기존 리포트 프레임워크에 쿠폰 다운로드수/사용수 컬럼을 추가하고 엑셀 다운로드 기능 연동
+
+**기술 스택**: Java, Spring, MySQL, MyBatis, JavaScript, Jenkins
 ### 2025
 - 페이코 블랙 럭키데이 이벤트 (10월)
 	- 경품 이벤트 재활용
